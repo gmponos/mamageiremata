@@ -1,6 +1,6 @@
 {
     "name": "mamageiremata",
-    "description": "Physics-like animations for pretty particles",
+    "description": "Mamageiremata template",
     "dependencies": {
 	"jquery" : "*",
 	"bootstrap": "*",
