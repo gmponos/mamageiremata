@@ -107,12 +107,12 @@
     </div>
 </section>
 
-<header id="place" class="carousel slide" data-ride="carousel">
+<header id="place" class="carousel slide">
     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#place" data-slide-to="0" class="active"></li>
+        <li data-target="#place" data-slide-to="1"></li>
+        <li data-target="#place" data-slide-to="2"></li>
+        <li data-target="#place" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner">
         <div class="item active">
