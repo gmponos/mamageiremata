@@ -262,6 +262,7 @@
 <section class="call-to-action bg-primary" id="salads">
     <div class="container text-center">
         <h2>Τα συνοδευτικά μας</h2>
+
         <div class="row">
             <div class="col-md-4">
                 <div class="portfolio-item">
@@ -361,6 +362,7 @@
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
                 <p class="text-muted">Created and designed by George Mponos</p>
+
                 <p class="text-muted">
                     Copyright &copy; <a href="http://www.webthink.gr" target="_blank">webthink.gr</a> 2014
                 </p>
