@@ -8,14 +8,11 @@
     <meta name="author" content="Mamageiremata">
     <title>Μαμαγειρέματα. Σπιτικό φαγητό. Αιγάλεω, Κερασούντος 23</title>
 
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.min.css">
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" type="text/css"
-          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Roboto'>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,33 +49,30 @@
     </div>
 </header>
 
-<!-- About -->
 <section id="about">
     <div class="container text-center">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="media">
                     <a class="media-left media-middle" href="#">
-                        <img data-src="img/mamageirissa1.png" src="img/mamageirissa1.web.png"
-                             alt="Μαμαγείρισσα... για σπιτικό φαγητό">
+                        <img data-src="img/mamageirissa1.png" src="img/mamageirissa1.web.png" alt="Μαμαγείρισσα... για σπιτικό φαγητό">
                     </a>
-
                     <div class="media-body">
                         <h2>Η κουζίνα μας</h2>
                         <hr class="small">
-                        <p class="lead">Καλώς ορίσατε, στη φιλόξενη κουζίνα μας! Καθημερινά θα ετοιμάζουμε για σας μια
+                        <p class="lead">
+                            Καλώς ορίσατε, στη φιλόξενη κουζίνα μας! Καθημερινά θα ετοιμάζουμε για σας μια
                             ποικιλία μεσογειακής διατροφής με γνώριμες γεύσεις και αρώματα που θα σας ταξιδέψουν πίσω
                             στην κουζίνα της μαμάς… ή της γιαγιάς σας! Κάθε μέρα θα μαγειρεύουμε λαδερά, όσπρια,
                             χειροποίητες πίτες, κιμάδες και κρεατικά με μεράκι και φροντίδα, σα να τα ετοιμάζουμε για
                             την οικογένειά μας, δηλαδή ορισμένη ποσότητα, αγνά υλικά, ανάλογα την εποχή και την έμπνευσή
-                            μας!</p>
+                            μας!
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /.row -->
     </div>
-    <!-- /.container -->
 </section>
 
 <section id="services" class="bg-primary">
@@ -88,17 +82,17 @@
                 <div class="row">
                     <div class="media">
                         <a class="pull-right media-middle" href="#">
-                            <img data-src="img/mamageirissa1.web.png" src="img/mamageirissa2.web.png"
-                                 alt="Μαμαγείρισσα... για σπιτικό φαγητό">
+                            <img data-src="img/mamageirissa1.web.png" src="img/mamageirissa2.web.png" alt="Μαμαγείρισσα... για σπιτικό φαγητό">
                         </a>
-
                         <div class="media-body">
                             <h2>Τα υλικά μας</h2>
                             <hr class="small">
-                            <p class="lead">Τα υλικά μας είναι επιλεγμένα απο εμάς και με άποψη! Χρησιμοποιούμε έξτρα
+                            <p class="lead">
+                                Τα υλικά μας είναι επιλεγμένα απο εμάς και με άποψη! Χρησιμοποιούμε έξτρα
                                 παρθένο ελαιόλαδο (και στα τηγανιτά), το ψωμί είναι ζυμωτό, πίτες με φύλλο «ανοιγμένο»
                                 απο τα χεράκια μας, σαλάτες φρέσκες εποχής, κρεατικά Ελληνικά νωπά, παραδοσιακά
-                                ζυμαρικά, φρεσκοαλεσμένα μπαχαρικά.</p>
+                                ζυμαρικά, φρεσκοαλεσμένα μπαχαρικά.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -140,8 +134,10 @@
                         <div class="portfolio-item">
                             <h4>Δευτέρα</h4>
                             <ul class="list-unstyled">
-                                <li><span tabindex="0" class="menu"
-                                          data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">Μοσχάρι κοκκινιστό με συνοδεία 6,50 €</span>
+                                <li>
+                                    <span tabindex="0" class="menu" data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">
+                                        Μοσχάρι κοκκινιστό με συνοδεία 6,50 €
+                                    </span>
                                 </li>
                                 <li>Μοσχάρι Γιουβέτσι 7,00 €</li>
                                 <li>Παστίτσιο 6,00 €</li>
@@ -239,9 +235,7 @@
                     <div class="col-sm-6">
                         <h4>Σαββάτο</h4>
                         <ul class="list-unstyled">
-                            <li><span tabindex="0" class="menu"
-                                      data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">Ρολό τσαχπίνικο 6,00 €</span>
-                            </li>
+                            <li><span tabindex="0" class="menu" data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">Ρολό τσαχπίνικο 6,00 €</span></li>
                             <li>Μουσακάς 6,00 €</li>
                             <li>Γεμιστά 5,50 €</li>
                             <li>Χοιρινές με πατάτες 6,50 €</li>
@@ -258,8 +252,7 @@
     </div>
 </section>
 
-<!-- Call to Action -->
-<section class="call-to-action bg-primary" id="salads">
+<section class="bg-primary" id="salads">
     <div class="container text-center">
         <h2>Τα συνοδευτικά μας</h2>
 
@@ -305,9 +298,12 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-6 col-md-offset-3">Οι πίτες μας, αναλόγως την γέμιση τους, από 4 έως 6 ευρώ.
+            <div class="col-md-6 col-md-offset-3">
+                <p>
+                Οι πίτες μας, αναλόγως την γέμιση τους, από 4 έως 6 ευρώ.
                 Κάθε που τα υλικά θά ’ναι κατάλληλα θα παίρνει φωτιά ο πλάστης! Όλες μμμ… γεύσεις λαχταριστές!!
                 Ψάρια-Θαλασσινά από 5 έως 8,50€…γιατί κάθε πράγμα στον καιρό του και ο κολιός.. τον Αύγουστο.
+                </p>
             </div>
         </div>
         <a href="#order" class="btn btn-dark">Παραγγείλτε!!</a>
@@ -317,8 +313,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
-                <p class="lead">Οι Μαμαγείρισσες θα σας έχουμε συχνά και μαμαγειρέματα έκπληξη! Τηλεφωνήστε μας να
-                    μάθετε ή περάστε απ' την κουζίνα μας να δοκιμάσετε και να διαλέξετε!</p>
+                <p class="lead">
+                    Οι Μαμαγείρισσες θα σας έχουμε συχνά και μαμαγειρέματα έκπληξη! Τηλεφωνήστε μας να
+                    μάθετε ή περάστε απ' την κουζίνα μας να δοκιμάσετε και να διαλέξετε!
+                </p>
                 <h4><strong><i class="fa fa-phone fa-fw"></i> 210 5312003</strong></h4>
                 <h4><strong><i class="fa fa-phone fa-fw"></i> 210 5312333</strong></h4>
                 <h4><strong><i class="fa fa-mobile-phone fa-fw"></i> 697 8033194 (Cosmote)</strong></h4>
@@ -326,23 +324,14 @@
                 <h4><strong>στη πόρτα σας από Μαμαγείρισσες</strong></h4>
 
                 <ul class="list-unstyled">
-                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:info@mamageiremata.gr">info@mamageiremata.gr</a>
-                    </li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:info@mamageiremata.gr">info@mamageiremata.gr</a></li>
                 </ul>
                 <p>Κερασούντος 23, Αιγάλεω, 12244</p>
                 <br>
                 <ul class="list-inline">
-                    <li>
-                        <a href="https://www.facebook.com/Mamageiremata"><i
-                                class="fa fa-facebook fa-fw fa-2x text-danger"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/mamageiremata"><i
-                                class="fa fa-twitter fa-fw fa-2x text-danger"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-google-plus fa-fw fa-2x text-danger"></i></a>
-                    </li>
+                    <li><a href="https://www.facebook.com/Mamageiremata"><i class="fa fa-facebook fa-fw fa-2x text-danger"></i></a></li>
+                    <li><a href="https://twitter.com/mamageiremata"><i class="fa fa-twitter fa-fw fa-2x text-danger"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus fa-fw fa-2x text-danger"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -362,9 +351,8 @@
         <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
                 <p class="text-muted">Created and designed by George Mponos</p>
-
                 <p class="text-muted">
-                    Copyright &copy; <a href="http://www.webthink.gr" target="_blank">webthink.gr</a> 2014
+                    Copyright &copy; <a href="http://gmponos.webthink.gr" target="_blank">webthink.gr</a> 2014
                 </p>
             </div>
         </div>
@@ -372,7 +360,7 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<!-- Custom Theme JavaScript -->
+
 <script>
     // Popover for menu items
     $('.menu').popover({
