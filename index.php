@@ -37,7 +37,7 @@
                 <li><a href="#place">Ο χώρος μας</a></li>
                 <li><a href="#menou">Το μενού μας</a></li>
                 <li><a href="#salads">Τα συνοδευτικά μας</a></li>
-                <li><a href="#contact">Επικοινωνία</a></li>
+                <li><a href="#order">Επικοινωνία</a></li>
             </ul>
         </nav>
 
@@ -348,7 +348,7 @@
                     </div>
                 </div>
         </section>
-        <section id="contact" class="map">
+        <section id="map" class="map">
             <iframe
                 src="https://maps.google.gr/maps?hl=el&q=kerasountos+23+aigaleo&sll=37.993529,23.681245&sspn=0.003686,0.006968&t=m&z=16&ll=37.993244,23.681262&iwloc=near&streetviewcontrol=true&scrollwheelcontrol=false&poweredby=false&directionhint=false&output=embed"
                 id="google-map" style="pointer-events:none">
