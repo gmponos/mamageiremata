@@ -12,7 +12,7 @@
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Roboto'>
 
-        <link rel="stylesheet" type="text/css" href="css/style.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,11 +26,9 @@
         <!-- Navigation -->
         <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
         <nav id="sidebar-wrapper">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <img src="img/logo-min.png" width="210" alt="Μαμαγειρέματα, Σπιτικό φαγητό."/>
             <ul class="sidebar-nav">
-                <li>
-                    <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-                </li>
-                <li><img src="img/logo-min.png" width="210" alt="Μαμαγειρέματα, Σπιτικό φαγητό."/></li>
                 <li><a href="#top">Αρχή</a></li>
                 <li><a href="#about">Η κουζίνα μας</a></li>
                 <li><a href="#services">Τα υλικά μας</a></li>

@@ -76,7 +76,6 @@ hr.small {
 }
 
 .sidebar-nav {
-    position: absolute;
     top: 0;
     width: 250px;
     margin: 0;
@@ -249,9 +248,10 @@ header.carousel .fill {
     border: 0;
 }
 
-.sidebar-nav li #menu-close {
+#menu-close {
     background: rgba(255, 255, 255, 0.2);
     text-indent: 0;
+    color: white;
 }
 
 #menou {
