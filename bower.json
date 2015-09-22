@@ -1,18 +1,13 @@
 {
-    "name": "mamageiremata",
-    "description": "Mamageiremata template",
-    "dependencies": {
-	"jquery" : "*",
-	"bootstrap": "*",
-	"font-awesome": "*"
-    },
-    "keywords": [
-	"motion",
-	"physics",
-	"particles"
-    ],
-    "authors": [
-	"George Mponos <gmponos@gmail.com>"
-    ],
-    "license": "MIT"
+  "name": "mamageiremata",
+  "description": "Mamageiremata template",
+  "dependencies": {
+    "jquery": "*",
+    "bootstrap": "*",
+    "font-awesome": "*"
+  },
+  "authors": [
+    "George Mponos <gmponos@webthink.gr>"
+  ],
+  "license": "MIT"
 }

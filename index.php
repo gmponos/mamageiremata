@@ -120,7 +120,7 @@
                     <div class="fill" style="background-image:url('img/carousel3.jpg');"></div>
                 </div>
                 <div class="item">
-                    <div class="fill" style="background-image:url('img/carousel4.jpg');"></div>
+                    <div class="fill" style="background-image:url('img/carousel5.jpg');"></div>
                 </div>
             </div>
         </header>
@@ -132,124 +132,308 @@
                     <div class="col-lg-10 col-lg-offset-1">
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="portfolio-item">
-                                    <h4>Δευτέρα</h4>
-                                    <ul class="list-unstyled">
-                                        <li>
-                                    <span tabindex="0" class="menu" data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">
-                                        Μοσχάρι κοκκινιστό με συνοδεία 6,50 €
-                                    </span>
-                                        </li>
-                                        <li>Μοσχάρι Γιουβέτσι 7,00 €</li>
-                                        <li>Παστίτσιο 6,00 €</li>
-                                        <li>Μπάμιες 5,00 €</li>
-                                        <li>Κοτόπουλο με πατάτες 6,00 €</li>
-                                        <li>Φακες 5,00 €</li>
-                                        <li>Ψαρόσουπα 6,00 €</li>
-                                        <li>Συκώτι λαδορίγανη 6,00 €</li>
-                                        <li>Γεμιστά 5,50 €</li>
-                                        <li>Σουτζουκάκια 6,00 €</li>
-                                    </ul>
-                                </div>
+                                <h4>Δευτέρα</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Μοσχάρι κατσαρόλας. Γαρνίρεται με ρύζι, μακαρόνια ή πατάτες τηγανιτές.">
+                                            Μοσχάρι κοκκινιστό με συνοδεία 6,50 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Κοκκινιστό μοσχάρι κατσαρόλας, συνοδεύεται από χειροποίητη μανέστρα.">
+                                            Μοσχάρι Γιουβέτσι 7,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">
+                                            Παστίτσιο 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Λαδερές με κόκκινη σάλτσα">
+                                            Μπάμιες 5,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Κοτόπουλο λεμονάτο. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
+                                            Κοτόπουλο με πατάτες 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>Φακες 5,00 €</li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Με φιλέτο παγκάσιους, βραστές πατάτες, καρότο και κρεμμύδι">
+                                            Ψαρόσουπα 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Μοσχαρίσιο συκώτι φούρνου. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
+                                            Συκώτι λαδορίγανη 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">
+                                            Γεμιστά 5,50 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Κοκκινιστά σουτζουκάκια από μοσχαρίσιο κιμά. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
+                                            Σουτζουκάκια 6,00 €
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="col-sm-6">
-                                <div class="portfolio-item">
-                                    <h4>Τρίτη</h4>
-                                    <ul class="list-unstyled">
-                                        <li><span tabindex="0" class="menu"
-                                                  data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">Μοσχάρι λεμονάτο 7,00 €</span>
-                                        </li>
-                                        <li>
-                                            <span tabindex="0" class="menu" data-content="Παστίτσιο από αγνα υλικά">Μουσακάς 6,00 €</span>
-                                        </li>
-                                        <li>Ρεβύθια 5,50 €</li>
-                                        <li>Κολοκύθια γεμιστά 6,00 €</li>
-                                        <li>Τσιπούρες με συνοδεία 8,00 €</li>
-                                        <li>Κοτόπουλο γιουβέτσι 6,00 €</li>
-                                        <li>Φασολάκια φρέσκα 6,00 €</li>
-                                        <li>Μπιφτέκια με πατάτες 6,00 €</li>
-                                        <li>Αρακάς 6,00 €</li>
-                                    </ul>
-                                </div>
+                                <h4>Τρίτη</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="Μοσχάρι κατσαρόλας. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
+                                                Μοσχάρι λεμονάτο 7,00 €
+                                            </span>
+                                    </li>
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="Ένα χορταστικό κομμάτι μουσακά με μοσχαρίσιο κιμά και μπεσαμέλ">
+                                                Μουσακάς 6,00 €
+                                            </span>
+                                    </li>
+                                    <li><span tabindex="0" class="menu" data-content="Ένα χορταστικό κομμάτι μουσακά με μοσχαρίσιο κιμά και μπεσαμέλ">
+                                                Ρεβύθια 5,50 €
+                                            </span>
+                                    </li>
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="Με κρέμα αυγολέμονο και χοιρινό κιμά">
+                                                Κολοκύθια γεμιστά 6,00 €
+                                            </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Ψητή τσιπούρα στο φούρνο. Συνοδεύεται με σαλάτα λάχανο και καρότο">
+                                            Τσιπούρες με συνοδεία 8,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Κοκκινιστό. Γαρνίρεται με χειροποίητη μανέστρα.">
+                                            Κοτόπουλο γιουβέτσι 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Συνοδεύονται από πατάτες">
+                                            Φασολάκια φρέσκα 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="2 τεμάχια από μοσχαρίσιο κιμά. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
+                                            Μπιφτέκια με πατάτες 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Λαχταριστός κοκκινιστός αρακάς ο οποίος συνοδεύεται από πατάτες">
+                                            Αρακάς 5,00 €
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="portfolio-item">
-                                    <h4>Τετάρτη</h4>
-                                    <ul class="list-unstyled">
-                                        <li><span tabindex="0" class="menu"
-                                                  data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">Χοιρινό με πατάτες 6,50 €</span>
-                                        </li>
-                                        <li>
-                                            <span tabindex="0" class="menu" data-content="Παστίτσιο από αγνα υλικά">Παστίτσιο 6,00 €</span>
-                                        </li>
-                                        <li>Γεμιστά 5,50 €</li>
-                                        <li>Κοτόπουλο σε σάλτσα γιαουριού 7,00 €</li>
-                                        <li>Γίγαντες 5,00 €</li>
-                                        <li>Σουπιές κοκκινιστές με κοφτό μακαρονάκι 7,00 €</li>
-                                        <li>Κοτόσουπα 6,00 €</li>
-                                        <li>Ιμάμ 6,00 €</li>
-                                        <li>Σουτζουκάκια με συνοδεία 6,00 €</li>
-                                    </ul>
-                                </div>
+                                <h4>Τετάρτη</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="Από σπάλα. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές.">
+                                                Χοιρινό με πατάτες 6,50 €
+                                            </span>
+                                    </li>
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">
+                                                Παστίτσιο 6,00 €
+                                            </span>
+                                    </li>
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">
+                                                Γεμιστά 5,50 €
+                                            </span>
+                                    </li>
+
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="Στήθος κοτόπουλου σε σάλτσα με γιαούρτι μουστάρδα μπέικον και μανιτάρια. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές.">
+                                            Κοτόπουλο σε σάλτσα γιαουριού 7,00 €
+                                            </span>
+                                    </li>
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="Με κόκκινη σάλτσα και μυροδικά.">
+                                            Γίγαντες 5,00 €
+                                            </span>
+                                    </li>
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="Γαρνίρεται κατά προτίμηση με κοφτό μακαρονάκι αλλά μπορείτε επίσης με ρύζι, μακαρόνια ή πατάτες τηγανιτές.">
+                                            Σουπιές κοκκινιστές με κοφτό μακαρονάκι 7,00 €
+                                            </span>
+                                    </li>
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="Με καρότο και κρεμμύδι">
+                                            Κοτόσουπα 6,00 €
+                                            </span>
+                                    </li>
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="2 τεμάχια μελιτζάνες με κρεμμύδι και μυρωδικά. Συνοδεύεται από πατάτες.">
+                                            Ιμάμ 6,00 €
+                                            </span>
+                                    </li>
+                                    <li>
+                                            <span tabindex="0" class="menu" data-content="Κοκκινιστό κρασάτο και χοιρινό κατσαρόλας">
+                                            Σουτζουκάκια με συνοδεία 6,00 €
+                                            </span>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="col-sm-6">
-                                <div class="portfolio-item">
-                                    <h4>Πέμπτη</h4>
-                                    <ul class="list-unstyled">
-                                        <li><span tabindex="0" class="menu"
-                                                  data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">Χοιρινό ροστό με μακαρούνες 6,50 €</span>
-                                        </li>
-                                        <li>
-                                            <span tabindex="0" class="menu" data-content="Παστίτσιο από αγνα υλικά">Παπουτσάκια 6,00 €</span>
-                                        </li>
-                                        <li>Κοτόπουλο με μπάμιες 6,00 €</li>
-                                        <li>Ρεβύθια 5,00 €</li>
-                                        <li>Πέρκα πλακί 6,00 €</li>
-                                        <li>Κεφτέδες στη σάλτσα 6,00 €</li>
-                                        <li>Μελιτζάνες γιαχνί 5,00 €</li>
-                                        <li>Αρακάς 5,00 €</li>
-                                        <li>Γεμιστά με κιμά 6,00 €</li>
-                                        <li>Κοτόπουλο με πατάτες 6,00 €</li>
-                                    </ul>
-                                </div>
+                                <h4>Πέμπτη</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Κοκκινιστό κρασάτο χοιρινό κατσαρόλας">
+                                            Χοιρινό ροστό με μακαρούνες 6,50 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="2 τεμάχια με μοσχαρίσιο κιμά και μπεσαμέλ">
+                                            Παπουτσάκια 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Κοκκινιστά φούρνου">
+                                            Κοτόπουλο με μπάμιες 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">
+                                        Ρεβύθια 5,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Φιλέτο με κόκκινη σάλτσα. Συνοδεύεται από πατάτες">
+                                        Πέρκα πλακί 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Από μοσχαρίσιο κιμά. Γαρνίρεται με ρύζι, μακαρόνια ή πατάτες τηγανιτές.">
+                                        Κεφτέδες στη σάλτσα 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Ψιλοκομμένες μελιτζάνες κατσαρόλας με κόκκινη σάλτσα.">
+                                        Μελιτζάνες γιαχνί 5,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Λαχταριστός κοκκινιστός αρακάς ο οποίος συνοδεύεται από πατάτες">
+                                        Αρακάς 5,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και μοσχαρίσιο κιμά. Συνοδεύονται από πατάτες">
+                                        Γεμιστά με κιμά 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Κοτόπουλο λεμονάτο. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
+                                            Κοτόπουλο με πατάτες 6,00 €
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="portfolio-item">
-                                    <h4>Παρασκευή</h4>
-                                    <ul class="list-unstyled">
-                                        <li><span tabindex="0" class="menu"
-                                                  data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">Μοσχάρι με μελιτζάνες 7,00 €</span>
-                                        </li>
-                                        <li>
-                                            <span tabindex="0" class="menu" data-content="Παστίτσιο από αγνα υλικά">Παστίτσιο 6,00 €</span>
-                                        </li>
-                                        <li>Μπιφτέκια κοτόπουλου με πατάτες 6,50 €</li>
-                                        <li>Γεμιστά 5,50 €</li>
-                                        <li>Συκώτι λαδορίγανη 6,00 €</li>
-                                        <li>Ψαρικά (ότι φέρει ο ψαράς) 6,00 €</li>
-                                        <li>Φακές 6,00 €</li>
-                                        <li>Μπιφτέκια μοσχαρίσια με πατάτες 6,00 €</li>
-                                        <li>Φασολάκια φρέσκα 6,00 €</li>
-                                    </ul>
-                                </div>
+                                <h4>Παρασκευή</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="ΚΑΤΣΑΡΟΛΑΣ,ΓΑΡΝΙΡΕΤΑΙ ΜΕ ΡΥΖΙ,ΜΑΚΑΡΟΝΙΑ,ΠΑΤΑΤΕΣ ΤΗΓΑΝΙΤΕΣ">
+                                            Μοσχάρι με μελιτζάνες 7,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">
+                                            Παστίτσιο 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="2 ΤΜΧ ΑΠΟ ΣΤΗΘΟΣ ΚΟΤΟΠΟΥΛΟΥ,ΓΑΡΝΙΡΕΤΑΙ ΜΕ ΠΑΤΑΤΕΣ ΦΟΥΡΝΟΥ,ΡΥΖΙ,ΜΑΚΑΡΟΝΙΑ,ΠΑΤΑΤΕΣ ΤΗΓΑΝΙΤΕΣ">
+                                        Μπιφτέκια κοτόπουλου με πατάτες 6,50 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">
+                                        Γεμιστά 5,50 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Μοσχαρίσιο συκώτι φούρνου. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
+                                            Συκώτι λαδορίγανη 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Μοσχαρίσιο συκώτι φούρνου. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
+                                        Ψαρικά (ότι φέρει ο ψαράς) 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Μοσχαρίσιο συκώτι φούρνου. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
+                                        Φακές 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Μοσχαρίσιο συκώτι φούρνου. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
+                                        Μπιφτέκια μοσχαρίσια με πατάτες 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Συνοδεύονται από πατάτες">
+                                            Φασολάκια φρέσκα 6,00 €
+                                        </span>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="col-sm-6">
                                 <h4>Σαββάτο</h4>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <span tabindex="0" class="menu" data-content="Το κοκκινιστό μας φτιάχνετε από υπέροχα υλικά">Ρολό τσαχπίνικο 6,00 €</span>
+                                        <span tabindex="0" class="menu" data-content="ΑΠΟ ΜΟΣΧΑΡΙΣΙΟ ΚΙΜΑ ΓΕΜΙΣΤΟ ΜΕ ΦΕΤΑ ΚΑΙ ΠΙΠΕΡΙΑ,ΓΑΡΝΙΡΕΤΑΙ ΜΕ ΠΑΤΑΤΕΣ ΦΟΥΡΝΟΥ,ΡΥΖΙ,ΜΑΚΑΡΟΝΙΑ,ΠΑΤΑΤΕΣ ΤΗΓΑΝΙΤΕΣ">
+                                            Ρολό τσαχπίνικο 6,00 €
+                                        </span>
                                     </li>
-                                    <li>Μουσακάς 6,00 €</li>
-                                    <li>Γεμιστά 5,50 €</li>
-                                    <li>Χοιρινές με πατάτες 6,50 €</li>
-                                    <li>Γίγαντες 5,00 €</li>
-                                    <li>Κολοκύθια γεμιστά 6,00 €</li>
-                                    <li>Σουτζουκάκια με συνοδεία 6,00 €</li>
-                                    <li>Κοτόπουλο με χυλοπιτάκι 6,00 €</li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Ένα χορταστικό κομμάτι μουσακά με μοσχαρίσιο κιμά και μπεσαμέλ">
+                                            Μουσακάς 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">
+                                        Γεμιστά 5,50 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="ΓΑΡΝΙΡΕΤΑΙ ΜΕ ΠΑΤΑΤΕΣ ΦΟΥΡΝΟΥ,ΡΥΖΙ,ΜΑΚΑΡΟΝΙΑ,ΠΑΤΑΤΕΣ ΤΗΓΑΝΙΤΕΣ">
+                                        Χοιρινές με πατάτες 6,50 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Με κόκκινη σάλτσα και μυροδικά.">
+                                        Γίγαντες 5,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Με κρέμα αυγολέμονο και χοιρινό κιμά">
+                                            Κολοκύθια γεμιστά 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Κοκκινιστό κρασάτο και χοιρινό κατσαρόλας">
+                                            Σουτζουκάκια με συνοδεία 6,00 €
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">
+                                        Κοτόπουλο με χυλοπιτάκι 6,00 €
+                                        </span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -292,18 +476,17 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="portfolio-item">
-                            <h4>Αναψυκτικά</h4>
-                            <ul class="list-unstyled">
-                                <li>Κοκα κόλα</li>
-                                <li>Παστίτσιο 6,00 €</li>
-                                <li>Γεμιστά 5,50 €</li>
-                                <li>Κοτόπουλο με πατάτες 6,00 €</li>
-                                <li>Σουτζουκάκια με συνοδεία 6,00 €</li>
-                                <li>Γιουβαρλάκια 6,00 €</li>
-                                <li>Μακαρόνια με κιμά 6,00 €</li>
-                            </ul>
-                        </div>
+                        <h4>Αναψυκτικά</h4>
+                        <ul class="list-unstyled">
+                            <li>Coca Cola 330ml 1,00 €</li>
+                            <li>Coca Cola 330ml (light, Zero) 1,00 €</li>
+                            <li>Εψα 330ml (κόκκινη) 1,00 €</li>
+                            <li>Εψα Λεμόνι 330ml 1,00 €</li>
+                            <li>Εψα Γκαζόζα 330ml 1,00 €</li>
+                            <li>Coca Cola 1lt 2,50 €</li>
+                            <li>Coca Cola 1lt (light) 2,50 €</li>
+                            <li>Νερό 500ml 0,50 €</li>
+                        </ul>
                     </div>
                     <div class="col-md-6 col-md-offset-3">
                         <p>
