@@ -6,10 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Σπιτικό φαγητό στο Αιγάλεω">
         <meta name="author" content="Mamageiremata Μαμαγειρέματα σπιτικό φαγητό">
-        <title>Μαμαγειρέματα. Σπιτικό φαγητό. Αιγάλεω, Κερασούντος 23</title>
-
+        <meta name="keywords" content="Σπιτικό φαγητό αιγάλεω, Delivery, φαγητό της μαμάς, μαγειρευτό φαγητό">
+        <title>Μαμαγειρέματα. Σπιτικό φαγητό στο Αιγάλεω, Κερασούντος 23</title>
+        <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css"
+              href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Roboto'>
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -451,7 +453,7 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         <span tabindex="0" class="menu"
-                                              data-content="ΑΠΟ ΜΟΣΧΑΡΙΣΙΟ ΚΙΜΑ ΓΕΜΙΣΤΟ ΜΕ ΦΕΤΑ ΚΑΙ ΠΙΠΕΡΙΑ,ΓΑΡΝΙΡΕΤΑΙ ΜΕ ΠΑΤΑΤΕΣ ΦΟΥΡΝΟΥ,ΡΥΖΙ,ΜΑΚΑΡΟΝΙΑ,ΠΑΤΑΤΕΣ ΤΗΓΑΝΙΤΕΣ">
+                                              data-content="Από μοσχαρίσιο κιμά γεμιστό με φέτα και πιπεριά. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτετες τηγανιτές">
                                             Ρολό τσαχπίνικο 6,00 €
                                         </span>
                                     </li>
@@ -469,7 +471,7 @@
                                     </li>
                                     <li>
                                         <span tabindex="0" class="menu"
-                                              data-content="ΓΑΡΝΙΡΕΤΑΙ ΜΕ ΠΑΤΑΤΕΣ ΦΟΥΡΝΟΥ,ΡΥΖΙ,ΜΑΚΑΡΟΝΙΑ,ΠΑΤΑΤΕΣ ΤΗΓΑΝΙΤΕΣ">
+                                              data-content="Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτετες τηγανιτές">
                                         Χοιρινές με πατάτες 6,50 €
                                         </span>
                                     </li>
@@ -491,10 +493,7 @@
                                         </span>
                                     </li>
                                     <li>
-                                        <span tabindex="0" class="menu"
-                                              data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">
                                         Κοτόπουλο με χυλοπιτάκι 6,00 €
-                                        </span>
                                     </li>
                                 </ul>
                             </div>
