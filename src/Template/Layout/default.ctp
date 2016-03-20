@@ -13,20 +13,20 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
 ?>
 <!DOCTYPE html>
 <html>
     <head>
         <?= $this->Html->charset() ?>
+        <title>Μαμαγειρέματα. Σπιτικό μαγειρευτό φαγητό στο Αιγάλεω, Κερασούντος 23</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            <?= $cakeDescription ?>:
-            <?= $this->fetch('title') ?>
-        </title>
+        <meta name="description" content="Σπιτικό μαγειρευτό φαγητό στο Αιγάλεω">
+        <meta name="author" content="Mamageiremata Μαμαγειρέματα σπιτικό μαγειρευτό φαγητό">
+        <meta name="keywords" content="Σπιτικό μαγειρευτό φαγητό αιγάλεω, Delivery, φαγητό της μαμάς, μαγειρευτό φαγητό, μαγειρευτό delivery">
         <?= $this->Html->meta('icon') ?>
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Roboto'>
         <?= $this->Html->css('style') ?>
         <?= $this->Html->script('analytics') ?>
         <?= $this->fetch('meta') ?>
@@ -42,5 +42,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <body>
         <?= $this->Flash->render() ?>
         <?= $this->fetch('content') ?>
+        <?= $this->element('footer'); ?>
     </body>
 </html>

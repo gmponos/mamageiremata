@@ -14,6 +14,8 @@
 namespace App\View;
 
 use Cake\View\View;
+use CakeBootstrap\View\Helper\BootstrapFormHelper;
+use CakeBootstrap\View\Helper\BootstrapHtmlHelper;
 
 /**
  * Application View
@@ -21,6 +23,8 @@ use Cake\View\View;
  * Your application’s default view class
  *
  * @link http://book.cakephp.org/3.0/en/views.html#the-app-view
+ * @property BootstrapHtmlHelper $Html
+ * @property BootstrapFormHelper $Form
  */
 class AppView extends View
 {
@@ -36,5 +40,12 @@ class AppView extends View
      */
     public function initialize()
     {
+        $this->loadHelper('Html', [
+            'className' => 'CakeBootstrap.BootstrapHtml',
+        ]);
+
+        $this->loadHelper('Form', [
+            'className' => 'CakeBootstrap.BootstrapForm',
+        ]);
     }
 }

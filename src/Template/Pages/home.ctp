@@ -1,25 +1,8 @@
-<!-- Navigation -->
-<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-<nav id="sidebar-wrapper">
-    <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-    <img src="img/logo-min.png" width="210" alt="Μαμαγειρέματα, Σπιτικό φαγητό."/>
-    <ul class="sidebar-nav">
-        <li><a href="#top">Αρχή</a></li>
-        <li><a href="#about">Η κουζίνα μας</a></li>
-        <li><a href="#services">Τα υλικά μας</a></li>
-        <li><a href="#place">Ο χώρος μας</a></li>
-        <li><a href="#menou">Τα μαγειρευτά μας</a></li>
-        <li><a href="#salads">Τα συνοδευτικά μας</a></li>
-        <li><a href="#order">Επικοινωνία</a></li>
-    </ul>
-</nav>
-<header id="top" class="header">
-    <div class="text-vertical-center">
-        <h2><span class="dark">Καλως ήρθατε στην κουζίνα μας...</span></h2>
-        <br>
-        <a href="#menou" class="btn btn-dark btn-lg">Δείτε το μενού</a>
-    </div>
-</header>
+<?= $this->element('sidebar'); ?>
+<?= $this->element('landing'); ?>
+<?php
+$menu = json_decode(file_get_contents('js/menu.json'), true);
+?>
 <section id="about">
     <div class="container text-center">
         <div class="row">
@@ -101,51 +84,19 @@
             <div class="col-lg-10 col-lg-offset-1">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h4>Δευτέρα</h4>
+                        <?php foreach ($menu['main'] as $day => $dayMenu): ?>
+                        <h4><?= $day ?></h4>
                         <ul class="list-unstyled">
-                            <li>
-                                <span tabindex="0" class="menu" data-content="Κοκκινιστό μοσχάρι κατσαρόλας, συνοδεύεται από χειροποίητη μανέστρα.">
-                                    Μοσχάρι Κοκκινιστό 7,00 €
-                                </span>
-                            </li>
-                            <li>
-                                <span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">
-                                    Παστίτσιο 6,00 €
-                                </span>
-                            </li>
-                            <li>
-                                <span tabindex="0" class="menu" data-content="Κοτόπουλο λεμονάτο. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
-                                    Κοτόπουλο με πατάτες φούρνου 6,00 €
-                                </span>
-                            </li>
-                            <li>
-                                <span tabindex="0" class="menu" data-content="Λαδερές με κόκκινη σάλτσα">
-                                    Μπάμιες 5,00 €
-                                </span>
-                            </li>
-                            <li>
-                                <span tabindex="0" class="menu"
-                                      data-content="Με φιλέτο παγκάσιους, βραστές πατάτες, καρότο και κρεμμύδι">
-                                    Ψαρόσουπα 6,00 €
-                                </span>
-                            </li>
-                            <li><span>Φακες 5,00 €</span></li>
-                            <li><span>Φασολάδα 5,00 €</span></li>
-                            <li>
-                                <span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">
-                                    Γεμιστά 5,50 €
-                                </span>
-                            </li>
-                            <li>
-                                <span>Χοιρινό γλυκόξυνο 6,50 €</span>
-                            </li>
-                            <li>
-                                <span tabindex="0" class="menu" data-content="Κοκκινιστά σουτζουκάκια από μοσχαρίσιο κιμά. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
-                                    Σουτζουκάκια στη σάλτσα 6,00 €
-                                </span>
-                            </li>
+                            <?php foreach ($dayMenu as $item): ?>
+                                <li>
+                                    <span tabindex="0" class="menu" data-content="<?= $item['description'] ?>">
+                                        <?= $item['title'] . ' ' . $item['price'] . ' €' ?>
+                                    </span>
+                                </li>
+                            <?php endforeach ?>
                         </ul>
                     </div>
+                    <?php endforeach ?>
                     <div class="col-sm-6">
                         <h4>Τρίτη</h4>
                         <ul class="list-unstyled">
@@ -419,8 +370,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/mamageiremata"><i
-                                class="fa fa-twitter fa-fw fa-2x text-danger"></i>
+                        <a href="https://twitter.com/mamageiremata">
+                            <i class="fa fa-twitter fa-fw fa-2x text-danger"></i>
                         </a>
                     </li>
                     <li>
@@ -441,18 +392,6 @@
         </small>
     </iframe>
 </section>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center">
-                <p class="text-muted">Created and designed by George Mponos</p>
-                <p class="text-muted">
-                    Copyright &copy; <a href="http://gmponos.webthink.gr" target="_blank">webthink.gr</a> 2014
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script>
