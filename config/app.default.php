@@ -91,10 +91,7 @@ return [
         /**
          * Configure the cache used for general framework caching.
          * Translation cache files are stored with this configuration.
-<<<<<<< HEAD
-=======
          * Duration will be set to '+1 year' in bootstrap.php when debug = false
->>>>>>> cakephp/master
          */
         '_cake_core_' => [
             'className' => 'File',
@@ -109,10 +106,7 @@ return [
          * Configure the cache for model and datasource caches. This cache
          * configuration is used to store schema descriptions, and table listings
          * in connections.
-<<<<<<< HEAD
-=======
          * Duration will be set to '+1 year' in bootstrap.php when debug = false
->>>>>>> cakephp/master
          */
         '_cake_model_' => [
             'className' => 'File',
@@ -149,12 +143,9 @@ return [
      *   extend one of the listed exceptions will also be skipped for logging.
      *   E.g.:
      *   `'skipLog' => ['Cake\Network\Exception\NotFoundException', 'Cake\Network\Exception\UnauthorizedException']`
-<<<<<<< HEAD
-=======
      * - `extraFatalErrorMemory` - int - The number of megabytes to increase
      *   the memory limit by when a fatal error is encountered. This allows
      *   breathing room to complete logging or error handling.
->>>>>>> cakephp/master
      */
     'Error' => [
         'errorLevel' => E_ALL & ~E_DEPRECATED,
@@ -204,11 +195,7 @@ return [
      * Delivery profiles allow you to predefine various properties about email
      * messages from your application and give the settings a name. This saves
      * duplication across your application and makes maintenance and development
-<<<<<<< HEAD
-     * easier. Each profile accepts a number of keys. See `Cake\Network\Email\Email`
-=======
      * easier. Each profile accepts a number of keys. See `Cake\Mailer\Email`
->>>>>>> cakephp/master
      * for more information.
      */
     'Email' => [
@@ -265,7 +252,7 @@ return [
              * which is the recommended value in production environments
              */
             //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
-            
+
             'url' => env('DATABASE_URL', null),
         ],
 

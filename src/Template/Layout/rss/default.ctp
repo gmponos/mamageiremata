@@ -1,10 +1,6 @@
 <?php
 if (!isset($channel)):
-<<<<<<< HEAD
-    $channel = array();
-=======
     $channel = [];
->>>>>>> cakephp/master
 endif;
 if (!isset($channel['title'])):
     $channel['title'] = $this->fetch('title');
@@ -15,4 +11,3 @@ echo $this->Rss->document(
         [], $channel, $this->fetch('content')
     )
 );
-?>
