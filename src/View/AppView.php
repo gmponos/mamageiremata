@@ -47,5 +47,6 @@ class AppView extends View
         $this->loadHelper('Form', [
             'className' => 'CakeBootstrap.BootstrapForm',
         ]);
+
     }
 }

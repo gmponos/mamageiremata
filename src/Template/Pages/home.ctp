@@ -1,8 +1,5 @@
 <?= $this->element('sidebar'); ?>
 <?= $this->element('landing'); ?>
-<?php
-$menu = json_decode(file_get_contents('js/menu.json'), true);
-?>
 <section id="about">
     <div class="container text-center">
         <div class="row">

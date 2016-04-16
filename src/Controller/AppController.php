@@ -43,7 +43,32 @@ class AppController extends Controller
     {
         parent::initialize();
         $this->loadComponent('RequestHandler');
-        $this->loadComponent('Flash');
+
+
+        $this->loadComponent('Auth', [
+            'flash' => [
+                'element' => 'error',
+            ],
+            'authorize' => ['Controller'],
+            'loginRedirect' => [
+                'controller' => 'Articles',
+                'action' => 'index',
+            ],
+            'logoutRedirect' => [
+                'controller' => 'Pages',
+                'action' => 'display',
+                'home',
+            ],
+        ]);
+
+        $this->loadComponent('Flash', [
+            'className' => 'CakeBootstrap.BootstrapFlash',
+        ]);
+    }
+
+    public function beforeFilter(Event $event)
+    {
+        $this->Auth->allow(['display']);
     }
 
     /**
@@ -54,8 +79,9 @@ class AppController extends Controller
      */
     public function beforeRender(Event $event)
     {
-        if (!array_key_exists('_serialize', $this->viewVars) &&
-            in_array($this->response->type(), ['application/json', 'application/xml'])
+        if (!array_key_exists('_serialize', $this->viewVars) && in_array($this->response->type(), [
+                'application/json', 'application/xml',
+            ])
         ) {
             $this->set('_serialize', true);
         }

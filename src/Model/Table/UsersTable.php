@@ -32,7 +32,7 @@ class UsersTable extends Table
         $this->addBehavior('Timestamp');
 
         $this->hasMany('Articles', [
-            'foreignKey' => 'user_id'
+            'foreignKey' => 'user_id',
         ]);
     }
 
@@ -47,12 +47,16 @@ class UsersTable extends Table
         $validator
             ->integer('id')
             ->allowEmpty('id', 'create')
-            ->add('id', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
+            ->add('id', 'unique', [
+                'rule' => 'validateUnique', 'provider' => 'table',
+            ]);
 
         $validator
             ->requirePresence('username', 'create')
             ->notEmpty('username')
-            ->add('username', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
+            ->add('username', 'unique', [
+                'rule' => 'validateUnique', 'provider' => 'table',
+            ]);
 
         $validator
             ->requirePresence('password', 'create')
@@ -61,7 +65,9 @@ class UsersTable extends Table
         $validator
             ->email('email')
             ->allowEmpty('email')
-            ->add('email', 'unique', ['rule' => 'validateUnique', 'provider' => 'table']);
+            ->add('email', 'unique', [
+                'rule' => 'validateUnique', 'provider' => 'table',
+            ]);
 
         return $validator;
     }
