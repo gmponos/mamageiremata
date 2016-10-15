@@ -49,6 +49,18 @@ class AppController extends Controller
             'authorize' => [
                 'Controller',
             ],
+            'authenticate' => [
+                'Form' => [
+                    'fields' => [
+                        'username' => 'email',
+                        'password' => 'password',
+                    ],
+                ],
+            ],
+            'loginAction' => [
+                'controller' => 'Users',
+                'action' => 'login',
+            ],
             'loginRedirect' => [
                 'controller' => 'Articles',
                 'action' => 'index',
@@ -79,7 +91,8 @@ class AppController extends Controller
     public function beforeRender(Event $event)
     {
         if (!array_key_exists('_serialize', $this->viewVars) && in_array($this->response->type(), [
-                'application/json', 'application/xml',
+                'application/json',
+                'application/xml',
             ])
         ) {
             $this->set('_serialize', true);
