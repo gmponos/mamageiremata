@@ -1,20 +1,20 @@
 {
-    "name": "mamageiremata",
-    "description": "",
-    "keywords": [
-        "mamageiremata"
-    ],
-    "homepage": "https://github.com/gmponos/mamageiremata",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "George Mponos",
-            "email": "gmponos@gmail.com",
-            "homepage": "http://gmponos.webthink.gr",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php" : ">=5.3.0"
+  "name": "mamageiremata",
+  "description": "",
+  "keywords": [
+    "mamageiremata"
+  ],
+  "homepage": "https://github.com/gmponos/mamageiremata",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "George Mponos",
+      "email": "gmponos@gmail.com",
+      "homepage": "http://gmponos.webthink.gr",
+      "role": "Developer"
     }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  }
 }
