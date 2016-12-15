@@ -1,5 +1,5 @@
-<?= $this->element('sidebar'); ?>
-<?= $this->element('landing'); ?>
+<?= $this->element('landing/sidebar'); ?>
+<?= $this->element('landing/landing'); ?>
 <section id="about">
     <div class="container text-center">
         <div class="row">
@@ -389,6 +389,8 @@
         </small>
     </iframe>
 </section>
+<?= $this->element('landing/footer'); ?>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script>

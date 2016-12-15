@@ -29,6 +29,19 @@ class AppController extends Controller
 {
 
     /**
+     * @param array $user
+     * @return mixed
+     */
+    public function isAuthorized($user)
+    {
+        if (!empty($user)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
      * Initialization hook method.
      *
      * Use this method to add common initialization code like loading components.
@@ -52,7 +65,7 @@ class AppController extends Controller
             'authenticate' => [
                 'Form' => [
                     'fields' => [
-                        'username' => 'email',
+                        'username' => 'username',
                         'password' => 'password',
                     ],
                 ],

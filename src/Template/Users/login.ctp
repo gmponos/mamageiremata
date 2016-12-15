@@ -2,7 +2,9 @@
     <div class="well">
         <?= $this->Flash->render() ?>
         <?= $this->Flash->render('auth') ?>
-        <?= __('Please enter your username and password') ?>
+        <div class="alert alert-info">
+            <?= __('Please enter your username and password') ?>
+        </div>
         <?= $this->Form->create() ?>
         <div class="row">
             <div class="col-sm-3 text-right">
