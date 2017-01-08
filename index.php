@@ -174,7 +174,9 @@
                                         </span>
                                     </li>
                                     <li><span>Σουτζουκάκια στη σάλτσα 6,00 €</span></li>
-                                    <li><span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">Γεμιστά 5,50 €</span></li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">Γεμιστά 5,50 €</span>
+                                    </li>
                                     <li><span>Φακές 5,00 €</span></li>
                                     <li><span>Φασολάδα 5,00 €</span></li>
                                     <li><span>Χοιρινό γλυκόξυνο 6,50 €</span></li>
@@ -202,13 +204,17 @@
                                 <h4>Τετάρτη</h4>
                                 <ul class="list-unstyled">
                                     <li><span>Μοσχάρι λεμονάτο 7,00 €</span></li>
-                                    <li><span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">Παστίτσιο 6,00 €</span></li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">Παστίτσιο 6,00 €</span>
+                                    </li>
                                     <li><span>Σουπιές κοκκινιστές με κοφτό μακαρονάκι 7,00 €</span></li>
                                     <li><span>Κοτόσουπα 6,00 €</span></li>
                                     <li><span>Ρεβύθια 5,00 €</span></li>
                                     <li><span>Κεφτέδες στη σάλτσα 6,00 €</span></li>
                                     <li><span>Κοτόπουλο με σως γιαουρτιού 7,00 €</span></li>
-                                    <li><span tabindex="0" class="menu" data-content="Με κόκκινη σάλτσα και μυροδικά.">Γίγαντες 5,00 €</span></li>
+                                    <li>
+                                        <span tabindex="0" class="menu" data-content="Με κόκκινη σάλτσα και μυροδικά.">Γίγαντες 5,00 €</span>
+                                    </li>
                                     <li><span>Σπανακόρυζο 6,00 €</span></li>
                                     <li><span>Χοιρινό με πατάτες 6,50 €</span></li>
                                 </ul>
@@ -266,7 +272,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <a href="#order" class="btn btn-dark">Παραγγείλτε!!</a>
+                        <a href="#delivery" class="btn btn-dark">Παραγγείλτε!!</a>
                     </div>
                 </div>
             </div>
@@ -326,8 +332,12 @@
                         </p>
                     </div>
                 </div>
-                <a href="#order" class="btn btn-dark">Παραγγείλτε!!</a>
+                <a href="#delivery" class="btn btn-dark">Παραγγείλτε!!</a>
             </div>
+        </section>
+        <section id="delivery" class="delivery">
+            <iframe src="https://www.delivery.gr/%CE%91%CE%B8%CE%AE%CE%BD%CE%B1/%CE%91%CE%B9%CE%B3%CE%AC%CE%BB%CE%B5%CF%89/%CE%9C%CE%B1%CE%BC%CE%B1%CE%B3%CE%B5%CE%B9%CF%81%CE%B5%CE%BC%CE%B1%CF%84%CE%B1%20web%20site-9294/online" id="deliverygr">
+            </iframe>
         </section>
         <section id="order">
             <div class="container">
@@ -356,8 +366,8 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/mamageiremata"><i
-                                        class="fa fa-twitter fa-fw fa-2x text-danger"></i>
+                                <a href="https://twitter.com/mamageiremata">
+                                    <i class="fa fa-twitter fa-fw fa-2x text-danger"></i>
                                 </a>
                             </li>
                             <li>
@@ -414,19 +424,24 @@
 
             // Scrolls to the selected menu item on the page
             $(function () {
-                $('a[href*=#]:not([href=#])').click(function () {
-                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                $('a[href*=#]:not([href=#])')
+                    .click(function () {
+                        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
-                        var target = $(this.hash);
-                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                        if (target.length) {
-                            $('html,body').animate({
-                                scrollTop: target.offset().top
-                            }, 1000);
-                            return false;
+                            var target = $(this.hash);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                            if (target.length) {
+                                $('html,body').animate({
+                                    scrollTop: target.offset().top
+                                }, 1000);
+                                return false;
+                            }
                         }
-                    }
-                });
+                    })
+
+                    .click(function () {
+                        $("#sidebar-wrapper").toggleClass("active");
+                    });
             });
 
             $('.carousel').carousel({
