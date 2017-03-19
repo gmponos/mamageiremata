@@ -49,6 +49,7 @@
                 <li><a href="#place">Ο χώρος μας</a></li>
                 <li><a href="#menou">Τα μαγειρευτά μας</a></li>
                 <li><a href="#salads">Τα συνοδευτικά μας</a></li>
+                <li><a href="#delivery">Παραγγείλτε!</a></li>
                 <li><a href="#order">Επικοινωνία</a></li>
             </ul>
         </nav>
@@ -204,17 +205,13 @@
                                 <h4>Τετάρτη</h4>
                                 <ul class="list-unstyled">
                                     <li><span>Μοσχάρι λεμονάτο 7,00 €</span></li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">Παστίτσιο 6,00 €</span>
-                                    </li>
+                                    <li><span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">Παστίτσιο 6,00 €</span></li>
                                     <li><span>Σουπιές κοκκινιστές με κοφτό μακαρονάκι 7,00 €</span></li>
                                     <li><span>Κοτόσουπα 6,00 €</span></li>
                                     <li><span>Ρεβύθια 5,00 €</span></li>
                                     <li><span>Κεφτέδες στη σάλτσα 6,00 €</span></li>
-                                    <li><span>Κοτόπουλο με σως γιαουρτιού 7,00 €</span></li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Με κόκκινη σάλτσα και μυροδικά.">Γίγαντες 5,00 €</span>
-                                    </li>
+                                    <li><span>Κοτόπουλο με πατάτες 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu" data-content="Με κόκκινη σάλτσα και μυροδικά.">Γίγαντες 5,00 €</span></li>
                                     <li><span>Σπανακόρυζο 6,00 €</span></li>
                                     <li><span>Χοιρινό με πατάτες 6,50 €</span></li>
                                 </ul>
@@ -437,8 +434,9 @@
                                 return false;
                             }
                         }
-                    })
+                    });
 
+                $('.sidebar-nav a[href*=#]:not([href=#])')
                     .click(function () {
                         $("#sidebar-wrapper").toggleClass("active");
                     });
