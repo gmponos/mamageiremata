@@ -8,6 +8,7 @@ body {
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Text styles */
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -19,6 +20,15 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+}
+
+/* Custom Horizontal Rule */
+hr.small {
+    max-width: 100px;
+}
+
+.bg-red hr {
+    border-color: #961114 -moz-use-text-color -moz-use-text-color
 }
 
 /* Custom Button Styles */
@@ -46,16 +56,6 @@ body {
 .btn-light:active {
     color: #333;
     background-color: rgba(255, 255, 255, 0.8);
-}
-
-/* Custom Horizontal Rule */
-
-hr.small {
-    max-width: 100px;
-}
-
-.bg-primary hr {
-    border-color: #961114 -moz-use-text-color -moz-use-text-color
 }
 
 /* Side Menu */
@@ -120,13 +120,6 @@ hr.small {
     background: none;
 }
 
-#menu-toggle {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-
 #sidebar-wrapper.active {
     right: 250px;
     width: 250px;
@@ -135,6 +128,19 @@ hr.small {
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#menu-close {
+    background: rgba(255, 255, 255, 0.2);
+    text-indent: 0;
+    color: white;
 }
 
 .toggle {
@@ -154,42 +160,20 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* About */
 section {
     padding: 50px 0;
 }
 
-/* Services */
-.service-item {
-    margin-bottom: 30px;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-.call-to-action .btn {
-    margin: 10px;
-}
-
-section.delivery{
-    height: 75%;
-    margin: 0;
-    padding: 0;    
-}
-    /* Map */
+/* Map */
 section.map {
     height: 500px;
     margin: 0;
     padding: 0;
+}
+
+section.bg-red {
+    background-color: #AB2629;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -198,6 +182,7 @@ section.map {
     }
 
     .delivery {
+        width: 98%;
         height: 75%;
     }
 }
@@ -205,10 +190,6 @@ section.map {
 /* Footer */
 footer {
     padding: 40px 0;
-}
-
-.bg-primary {
-    background-color: #AB2629;
 }
 
 header {
@@ -245,34 +226,42 @@ header.carousel .fill {
     padding: 10px 16px;
 }
 
-.bg-dark {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.4);
-    margin: 30px;
-}
-
 #google-map {
     width: 100%;
     height: 100%;
     border: 0;
 }
 
+#delivery {
+    height: 99%;
+    width: 100%;
+}
+
+/** Iframe id */
 #deliverygr {
     width: 100%;
     height: 100%;
     border: 0;
 }
 
-#menu-close {
-    background: rgba(255, 255, 255, 0.2);
-    text-indent: 0;
-    color: white;
-}
-
-#menou {
+#food-list {
     background-image: url('../img/linedpaper-min.png');
 }
 
 #order {
-    padding: 100px 0;
+    padding: 70px 0;
+}
+
+/** Modal style */
+.modal-delivery {
+    width: 92%;
+    height: 100%;
+}
+
+.modal-delivery > .modal-content {
+    height: 95%;
+}
+
+.modal-delivery > .modal-content > .modal-body {
+    height: 100%;
 }
