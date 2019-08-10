@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="gr">
     <head>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -47,7 +47,7 @@
                 <li><a href="#about">Η κουζίνα μας</a></li>
                 <li><a href="#services">Τα υλικά μας</a></li>
                 <li><a href="#place">Ο χώρος μας</a></li>
-                <li><a href="#menou">Τα μαγειρευτά μας</a></li>
+                <li><a href="#food-list">Τα μαγειρευτά μας</a></li>
                 <li><a href="#salads">Τα συνοδευτικά μας</a></li>
                 <li><a href="#order">Επικοινωνία</a></li>
             </ul>
@@ -57,7 +57,11 @@
             <div class="text-vertical-center">
                 <h2><span class="dark">Καλως ήρθατε στην κουζίνα μας...</span></h2>
                 <br>
-                <a href="#menou" class="btn btn-dark btn-lg">Δείτε το μενού</a>
+                <a href="#food-list" class="btn btn-dark btn-lg">Δείτε το μενού</a>
+                <br>
+                <br>
+                <button class="btn btn-dark btn-lg hidden-xs" data-toggle="modal" data-target="#modal-delivery">Παραγγείλτε Online τώρα!</button>
+                <a href="order.php" class="btn btn-dark btn-lg visible-xs">Παραγγείλτε Online τώρα!</a>
             </div>
         </header>
         <section id="about">
@@ -66,8 +70,7 @@
                     <div class="col-md-10 col-md-offset-1">
                         <div class="media">
                             <a class="media-left media-middle" href="#">
-                                <img data-src="img/mamageirissa1.png" src="img/mamageirissa1.web.png"
-                                     alt="Μαμαγείρισσα... για σπιτικό φαγητό">
+                                <img data-src="img/mamageirissa1.png" src="img/mamageirissa1.web.png" alt="Μαμαγείρισσα... για σπιτικό φαγητό">
                             </a>
                             <div class="media-body">
                                 <h2>Η κουζίνα μας</h2>
@@ -86,7 +89,7 @@
                 </div>
             </div>
         </section>
-        <section id="services" class="bg-primary">
+        <section id="services" class="bg-red">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
@@ -138,7 +141,7 @@
                 </div>
             </div>
         </header>
-        <section id="menou" class="menou">
+        <section id="food-list" class="food-list">
             <div class="container text-center">
                 <h2>Τα μαγειρευτά μας</h2>
                 <hr class="small">
@@ -204,17 +207,13 @@
                                 <h4>Τετάρτη</h4>
                                 <ul class="list-unstyled">
                                     <li><span>Μοσχάρι λεμονάτο 7,00 €</span></li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">Παστίτσιο 6,00 €</span>
-                                    </li>
+                                    <li><span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">Παστίτσιο 6,00 €</span></li>
                                     <li><span>Σουπιές κοκκινιστές με κοφτό μακαρονάκι 7,00 €</span></li>
                                     <li><span>Κοτόσουπα 6,00 €</span></li>
                                     <li><span>Ρεβύθια 5,00 €</span></li>
                                     <li><span>Κεφτέδες στη σάλτσα 6,00 €</span></li>
-                                    <li><span>Κοτόπουλο με σως γιαουρτιού 7,00 €</span></li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Με κόκκινη σάλτσα και μυροδικά.">Γίγαντες 5,00 €</span>
-                                    </li>
+                                    <li><span>Κοτόπουλο με πατάτες 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu" data-content="Με κόκκινη σάλτσα και μυροδικά.">Γίγαντες 5,00 €</span></li>
                                     <li><span>Σπανακόρυζο 6,00 €</span></li>
                                     <li><span>Χοιρινό με πατάτες 6,50 €</span></li>
                                 </ul>
@@ -242,18 +241,15 @@
                                 <h4>Παρασκευή</h4>
                                 <ul class="list-unstyled">
                                     <li><span>Μοσχάρι στιφάδο 8,00 €</span></li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">Παστίτσιο 6,00 €</span>
-                                    </li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">Γεμιστά 5,50 €</span>
-                                    </li>
+                                    <li><span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">Παστίτσιο 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">Γεμιστά 5,50 €</span></li>
                                     <li><span>Μπιφτέκια μοσχαρίσια με πατάτες 6,00 €</span></li>
                                     <li><span>Ρεβύθια 5,00</span></li>
                                     <li><span>Γιουβαρλάκια 6,00 €</span></li>
                                     <li><span>Σπανακόρυζο 6,00 €</span></li>
                                     <li><span>Χταπόδι με κοφτό μακαρονάκι 8,00 €</span></li>
                                     <li><span>Κοτόπουλο μαμαγειρέματα 6,00 €</span></li>
+                                </ul>
                             </div>
                             <div class="col-sm-6">
                                 <h4>Σαββάτο</h4>
@@ -272,42 +268,38 @@
                                 </ul>
                             </div>
                         </div>
-                        <a href="#order" class="btn btn-dark">Παραγγείλτε!!</a>
+                        <button class="btn btn-dark" data-toggle="modal" data-target="#modal-delivery">Παραγγείλτε Online!</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="bg-primary" id="salads">
+        <section class="bg-red" id="salads">
             <div class="container text-center">
                 <h2>Τα συνοδευτικά μας</h2>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="portfolio-item">
-                            <h4>Σαλάτες</h4>
-                            <ul class="list-unstyled">
-                                <li>Χωριάτικη 5,00 €</li>
-                                <li>Ανάμεικτη 4,00 €</li>
-                                <li>Αγγουροντομάτα 3,00 €</li>
-                                <li>Λάχανο – καρότο 3,00 €</li>
-                                <li>Ντάκος 5,00 €</li>
-                                <li>Κοτοσαλάτα 5,00 €</li>
-                                <li>Μαρούλι 3,00 €</li>
-                                <li>Βραστά λαχανικά 3,00 €</li>
-                            </ul>
-                        </div>
+                        <h4>Σαλάτες</h4>
+                        <ul class="list-unstyled">
+                            <li>Χωριάτικη 5,00 €</li>
+                            <li>Ανάμεικτη 4,00 €</li>
+                            <li>Αγγουροντομάτα 3,00 €</li>
+                            <li>Λάχανο – καρότο 3,00 €</li>
+                            <li>Ντάκος 5,00 €</li>
+                            <li>Κοτοσαλάτα 5,00 €</li>
+                            <li>Μαρούλι 3,00 €</li>
+                            <li>Βραστά λαχανικά 3,00 €</li>
+                        </ul>
                     </div>
                     <div class="col-md-4">
-                        <div class="portfolio-item">
-                            <h4>Ορεκτικά</h4>
-                            <ul class="list-unstyled">
-                                <li>Φέτα 2,50 €</li>
-                                <li>Πατάτες τηγανητές 3,00 €</li>
-                                <li>Τζατζίκι 2,50 €</li>
-                                <li>Ρύζι 2,00 €</li>
-                                <li>Τυροκαυτερή 2,50 €</li>
-                                <li>Σπαγγέτι 3,00 €</li>
-                            </ul>
-                        </div>
+                        <h4>Ορεκτικά</h4>
+                        <ul class="list-unstyled">
+                            <li>Φέτα 2,50 €</li>
+                            <li>Πατάτες τηγανητές 3,00 €</li>
+                            <li>Τζατζίκι 2,50 €</li>
+                            <li>Ρύζι 2,00 €</li>
+                            <li>Τυροκαυτερή 2,50 €</li>
+                            <li>Σπαγγέτι 3,00 €</li>
+                        </ul>
                     </div>
                     <div class="col-md-4">
                         <h4>Αναψυκτικά</h4>
@@ -332,7 +324,7 @@
                         </p>
                     </div>
                 </div>
-                <a href="#order" class="btn btn-dark">Παραγγείλτε!!</a>
+                <button class="btn btn-dark" data-toggle="modal" data-target="#modal-delivery">Παραγγείλτε Online!</button>
             </div>
         </section>
         <section id="order">
@@ -376,9 +368,7 @@
                 </div>
         </section>
         <section id="map" class="map">
-            <iframe
-                src="https://maps.google.gr/maps?hl=el&q=kerasountos+23+aigaleo&sll=37.993529,23.681245&sspn=0.003686,0.006968&t=m&z=16&ll=37.993244,23.681262&iwloc=near&streetviewcontrol=true&scrollwheelcontrol=false&poweredby=false&directionhint=false&output=embed"
-                id="google-map" style="pointer-events:none">
+            <iframe src="https://maps.google.gr/maps?hl=el&q=kerasountos+23+aigaleo&sll=37.993529,23.681245&sspn=0.003686,0.006968&t=m&z=16&ll=37.993244,23.681262&iwloc=near&streetviewcontrol=true&scrollwheelcontrol=false&poweredby=false&directionhint=false&output=embed" id="google-map" style="pointer-events:none">
                 <br/>
                 <small>
                     <a href="https://maps.google.gr/maps?hl=el&q=kerasountos+23+aigaleo&sll=37.993529,23.681245&sspn=0.003686,0.006968&t=m&z=16&ll=37.993244,23.681262&iwloc=near&streetviewcontrol=true&scrollwheelcontrol=false&poweredby=false&directionhint=false&output=embed"></a>
@@ -390,13 +380,22 @@
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1 text-center">
                         <p class="text-muted">Created and designed by George Mponos</p>
-                        <p class="text-muted">
-                            Copyright &copy; <a href="http://gmponos.webthink.gr" target="_blank">webthink.gr</a> 2014
+                        <p class="text-muted">Copyright &copy; <a href="http://gmponos.webthink.gr" target="_blank">webthink.gr</a> 2014
                         </p>
                     </div>
                 </div>
             </div>
         </footer>
+        <div class="modal fade" id="modal-delivery" role="dialog">
+            <div class="modal-dialog modal-lg modal-delivery" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <iframe src="https://www.delivery.gr/%CE%91%CE%B8%CE%AE%CE%BD%CE%B1/%CE%91%CE%B9%CE%B3%CE%AC%CE%BB%CE%B5%CF%89/%CE%9C%CE%B1%CE%BC%CE%B1%CE%B3%CE%B5%CE%B9%CF%81%CE%B5%CE%BC%CE%B1%CF%84%CE%B1%20web%20site-9294/online" id="deliverygr">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <script>
@@ -433,8 +432,9 @@
                                 return false;
                             }
                         }
-                    })
+                    });
 
+                $('.sidebar-nav a[href*=#]:not([href=#])')
                     .click(function () {
                         $("#sidebar-wrapper").toggleClass("active");
                     });
