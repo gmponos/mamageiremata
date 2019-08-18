@@ -148,57 +148,46 @@
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1">
                         <div class="row">
+                            <div class="col-sm-12">
+                                <h4>Καθημερινά</h4>
+                                <ul class="list-unstyled">
+                                    <li><span tabindex="0" class="menu">Παστίτσιο 6,50 €</span></li>
+                                    <li><span tabindex="0" class="menu">Κοτόπουλο με πατάτες (μπούτι) 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu">Κοτόπουλο με πατάτες (στήθος) 6,50 €</span></li>
+                                    <li><span tabindex="0" class="menu">Μουσακάς 6,50 €</span></li>
+                                    <li><span tabindex="0" class="menu">Μπιφτέκια μοσχαρίσια 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu">Μακαρόνια με κιμά 6,00 €</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
                             <div class="col-sm-6">
                                 <h4>Δευτέρα</h4>
                                 <ul class="list-unstyled">
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Κοκκινιστό μοσχάρι κατσαρόλας, συνοδεύεται από χειροποίητη μανέστρα.">
-                                            Μοσχάρι Κοκκινιστό 7,00 €
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">
-                                            Παστίτσιο 6,00 €
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Κοτόπουλο λεμονάτο. Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτες τηγανιτές">
-                                            Κοτόπουλο με πατάτες φούρνου 6,00 €
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Λαδερές με κόκκινη σάλτσα">
-                                            Μπάμιες 5,00 €
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Με φιλέτο παγκάσιους, βραστές πατάτες, καρότο και κρεμμύδι">
-                                            Ψαρόσουπα 6,00 €
-                                        </span>
-                                    </li>
-                                    <li><span>Σουτζουκάκια στη σάλτσα 6,00 €</span></li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">Γεμιστά 5,50 €</span>
-                                    </li>
-                                    <li><span>Φακές 5,00 €</span></li>
-                                    <li><span>Φασολάδα 5,00 €</span></li>
-                                    <li><span>Χοιρινό γλυκόξυνο 6,50 €</span></li>
+                                    <li><span tabindex="0" class="menu">Μοσχάρι κοκκινιστό 7,50 €</span></li>
+                                    <li><span tabindex="0" class="menu">Γεμιστά λαδερά 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu">Σουτζουκάκια στη σάλτσα 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu">Φακές 5,00 €</span></li>
+                                    <li><span tabindex="0" class="menu">Φασολάδα 5,00 €</span></li>
+                                    <li><span>Χοιρινή τηγανιά φούρνου 6,50 €</span></li>
+                                    <li><span tabindex="0" class="menu">Μπάμιες 5,00 €</span></li>
+                                    <li><span>Μελιτζάνες γιαχνί (κοκ/τες) 5,50 €</span></li>
+                                    <li><span>Ψαρόσουπα 6,00 €</span></li>
+                                    <li><span>Γαρίδες με λιγκουίνι 6,50 €</span></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6">
                                 <h4>Τρίτη</h4>
                                 <ul class="list-unstyled">
-                                    <li><span>Χοιρινό πρασοσέλινο 6,50 €</span></li>
-                                    <li><span>Λαχανοντολμάδες 6,00 €</span></li>
-                                    <li><span>Ρεβύθια 5,00 €</span></li>
-                                    <li><span>Γιουβαρλάκια 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu">Μοσχάρι κοκκινιστό 7,50 €</span></li>
+                                    <li><span>Γεμιστά με κιμά 6,50 €</span></li>
                                     <li><span>Τσιπούρες (συνοδεία σαλάτα) 8,00 €</span></li>
-                                    <li><span>Κοτόπουλο κοκκινιστό 6,00 €</span></li>
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Λαχταριστός κοκκινιστός αρακάς ο οποίος συνοδεύεται από πατάτες">Αρακάς 5,00 €</span>
-                                    </li>
-                                    <li><span>Συκώτι λαδορίγανη 6,00 €</span></li>
-                                    <li><span>Μπιφτέκια μοσχαρίσια με πατάτες 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu" data-content="Μοσχαρίσιος κιμάς με φέτα και πιπεριές">Ρολό τσαχπίνικο 6,50 €</span></li>
+                                    <li><span>Ρεβυθια 5,00 €</span></li>
+                                    <li><span>Συκώτι φούρνου λαδορίγανη 6,50 €</span></li>
+                                    <li><span>Κοτόπουλο με μπάμιες 6,50 €</span></li>
+                                    <li><span tabindex="0" class="menu" data-content="Λαχταριστός κοκκινιστός αρακάς ο οποίος συνοδεύεται από πατάτες">Αρακάς κοκκινιστός 5,00 €</span></li>
+                                    <li><span>Γιουβαρλάκια 6,00 €</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -206,33 +195,32 @@
                             <div class="col-sm-6">
                                 <h4>Τετάρτη</h4>
                                 <ul class="list-unstyled">
-                                    <li><span>Μοσχάρι λεμονάτο 7,00 €</span></li>
-                                    <li><span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">Παστίτσιο 6,00 €</span></li>
-                                    <li><span>Σουπιές κοκκινιστές με κοφτό μακαρονάκι 7,00 €</span></li>
-                                    <li><span>Κοτόσουπα 6,00 €</span></li>
-                                    <li><span>Ρεβύθια 5,00 €</span></li>
+                                    <li><span>Μοσχάρι λεμονάτο 7,50 €</span></li>
+                                    <li><span data-content="Με κόκκινη σάλτσα και μυροδικά.">Γίγαντες 5,50 €</span></li>
+                                    <li><span>Ιμαμ Μπαιλντί 6,00 €</span></li>
+                                    <li><span>Χοιρινή μπριζόλα στο φούρνο με πατάτες 6,50 €</span></li>
+                                    <li><span>Φασολάκια φρέσκα 6,00 €</span></li>
+                                    <li><span>Φακές 5,00 €</span></li>
+                                    <li><span>Γεμιστά 6,00 €</span></li>
+                                    <li><span>Μπιφτέκια κοτόπουλου στήθος με κάρυ κ μυρωδικά 7,00 €</span></li>
                                     <li><span>Κεφτέδες στη σάλτσα 6,00 €</span></li>
-                                    <li><span>Κοτόπουλο με πατάτες 6,00 €</span></li>
-                                    <li><span tabindex="0" class="menu" data-content="Με κόκκινη σάλτσα και μυροδικά.">Γίγαντες 5,00 €</span></li>
-                                    <li><span>Σπανακόρυζο 6,00 €</span></li>
-                                    <li><span>Χοιρινό με πατάτες 6,50 €</span></li>
+                                    <li><span>Σουπιές κοκκινιστές με κοφτό μακαρονάκι 7,50 €</span></li>
+                                    <li><span>Κοτόσουπα (μπούτι) 6,00 €</span></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6">
                                 <h4>Πέμπτη</h4>
                                 <ul class="list-unstyled">
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Κοκκινιστό κρασάτο χοιρινό κατσαρόλας">Χοιρινό ροστό με μακαρούνες 6,50 €</span>
-                                    </li>
-                                    <li><span>Μουσακάς 6,00 €<span></li>
-                                    <li><span>Πέρκα πλακί 6,00 €</span></li>
-                                    <li><span>Λαχανόρυζο 5,00 €</span></li>
-                                    <li><span>Συκώτι λαδορίγανη 6,00 €</span></li>
-                                    <li><span>Φακές 5,00 €</span></li>
-                                    <li><span>Φασολάδα 5,00 €</span></li>
+                                    <li><span tabindex="0" class="menu" data-content="Κοκκινιστό κρασάτο χοιρινό κατσαρόλας">Χοιρινό ροστό με μακαρούνες 6,50 €</span></li>
                                     <li><span>Σουτζουκάκια στη σάλτσα 6,00 €</span></li>
-                                    <li><span>Μπιφτέκια κοτόπουλου 6,50 €</span></li>
-                                    <li><span>Κρεατόσουπα 6,50 €</span></li>
+                                    <li><span>Ρεβύθια 5,00</span></li>
+                                    <li><span>Μοσχάρι λεμονάτο 7,50 €</span></li>
+                                    <li><span>Πέρκα πλακί 6,50 €</span></li>
+                                    <li><span tabindex="0" class="menu" data-content="Με φρέσκο σπανάκι">Σπανακόρυζο 6,00 €</span></li>
+                                    <li><span>Κοτόπουλο γάστρας (στήθος) 7,00 €</span></li>
+                                    <li><span>Γεμιστά λαδερά 6,00 €<span></li>
+                                    <li><span>Συκώτι φούρνου λαδορίγανη 6,50 €</span></li>
+                                    <li><span>Κρεατόσουπα (μοσχάρι) 7,00 €</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -240,31 +228,30 @@
                             <div class="col-sm-6">
                                 <h4>Παρασκευή</h4>
                                 <ul class="list-unstyled">
-                                    <li><span>Μοσχάρι στιφάδο 8,00 €</span></li>
-                                    <li><span tabindex="0" class="menu" data-content="Με μοσχαρίσιο κιμά και μπεσαμέλ">Παστίτσιο 6,00 €</span></li>
-                                    <li><span tabindex="0" class="menu" data-content="2 τεμάχια με ρύζι και υπέροχα μυρωδικά. Συνοδεύεται από πατάτες φούρνου">Γεμιστά 5,50 €</span></li>
-                                    <li><span>Μπιφτέκια μοσχαρίσια με πατάτες 6,00 €</span></li>
-                                    <li><span>Ρεβύθια 5,00</span></li>
+                                    <li><span tabindex="0" class="menu">Μοσχάρι κοκκινιστό 7,50 €</span></li>
+                                    <li><span>Φακές 5,00</span></li>
                                     <li><span>Γιουβαρλάκια 6,00 €</span></li>
-                                    <li><span>Σπανακόρυζο 6,00 €</span></li>
-                                    <li><span>Χταπόδι με κοφτό μακαρονάκι 8,00 €</span></li>
-                                    <li><span>Κοτόπουλο μαμαγειρέματα 6,00 €</span></li>
+                                    <li><span>Φασολάδα 5,00 €</span></li>
+                                    <li><span>Κοτόπουλο κοκκινιστό με χυλοπιτάκι 6,50 €</span></li>
+                                    <li><span tabindex="0" class="menu">Γεμιστά 6,00 €</span></li>
+                                    <li><span>Γαρίδες με λιγκουίνι 6,50 €</span></li>
+                                    <li><span>Φασολάκια φρέσκα 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu" data-content="Μοσχαρίσιος κιμάς με φέτα και πιπεριές">Ρολό τσαχπίνικο 6,50 €</span></li>
+                                    <li><span>Μελιτζάνες γιαχνί 5,50 €</span></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6">
                                 <h4>Σαββάτο</h4>
                                 <ul class="list-unstyled">
-                                    <li>
-                                        <span tabindex="0" class="menu" data-content="Γαρνίρεται με πατάτες φούρνου, ρύζι, μακαρόνια ή πατάτετες τηγανιτές">
-                                            Χοιρινές μπριζόλες με πατάτες φούρνου 6,50 €
-                                        </span>
-                                    </li>
-                                    <li><span>Σουφλέ 7,00 €</span></li>
-                                    <li><span>Κοτόσουπα 6,00 €</span></li>
-                                    <li><span>Κοτόπουλο κοκκινιστό με παπαρδέλες 6,00 €</span></li>
-                                    <li><span>Γίγαντες 5,00 €</span></li>
-                                    <li><span>Λαχανοντολμάδες 6,00 €</span></li>
-                                    <li><span>Ρολό τσαχπίνικο 6,00 €</span></li>
+                                    <li><span tabindex="0" class="menu">Μοσχάρι με μελιτζάνες (κοκκινιστό) 8,00 €</span></li>
+                                    <li><span tabindex="0" class="menu" data-content="Με κόκκινη σάλτσα και μυροδικά.">Γίγαντες 5,50 €</span></li>
+                                    <li><span tabindex="0" class="menu">Κοτόσουπα (μπούτι) 6,00 €</span></li>
+                                    <li><span>Σουφλέ (πέννες, αλλαντικά, τυριά) 7,00 €</span></li>
+                                    <li><span tabindex="0" class="menu">Αρακάς με αγκινάρες (λεμονάτος) 5,50 €</span></li>
+                                    <li><span>Παπουτσάκια 6,50 €</span></li>
+                                    <li><span tabindex="0" class="menu">Κολοκύθια γεμιστά με κιμά και κρέμα αυγολέμονο 6,50 €</span></li>
+                                    <li><span>Αρνί με πατάτες στο φούρνο 8,00 €</span></li>
+                                    <li><span>Τηγανιά κοτόπουλο με μπέικον 7,00 €</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -304,14 +291,18 @@
                     <div class="col-md-4">
                         <h4>Αναψυκτικά</h4>
                         <ul class="list-unstyled">
-                            <li>Coca Cola 330ml 1,00 €</li>
-                            <li>Coca Cola 330ml (light, Zero) 1,00 €</li>
-                            <li>Εψα 330ml (κόκκινη) 1,00 €</li>
-                            <li>Εψα Λεμόνι 330ml 1,00 €</li>
-                            <li>Εψα Γκαζόζα 330ml 1,00 €</li>
-                            <li>Coca Cola 1lt 2,50 €</li>
-                            <li>Coca Cola 1lt (light) 2,50 €</li>
+                            <li>Coca Cola 330ml (Κανονική, light, Zero) 1,20 €</li>
+                            <li>Green Cola 330ml 1,20 €</li>
+                            <li>Εψα 330ml (κόκκινη, μπλε) 1,20 €</li>
+                            <li>Εψα Λεμόνι 330ml 1,20 €</li>
+                            <li>Εψα Γκαζόζα 330ml 1,20 €</li>
+                            <li>ΗΒΗ Σόδα 330ml 1,20 €</li>
+                            <li>Σουρωτή 330ml 1,20 €</li>
+                            <li>Coca Cola 1,5 lt (Κανονική, light, Zero) 2,50 €</li>
                             <li>Νερό 500ml 0,50 €</li>
+                            <li>Νερό 1,5 lt 1,00 €</li>
+                            <li>Μπύρα κουτί 330ml (FIX, Alpha) 1,50 €</li>
+                            <li>Μπύρα Μπουκ. 500ml (FIX, Alpha, Kaiser, Amstel) 2,50 €</li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-md-offset-3">
